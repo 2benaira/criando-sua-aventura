@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+    <title>O mistério do tesouro perdido</title>
+</head>
+<body>
+  <main>
+    <div class="passo ativo" id="passo-0">
+        <img src="cenario-passo0.jpg" alt="">
+        <p>Stella é uma jovem aventureira que, um dia, encontra um mapa antigo enquanto explorava o sótão de sua casa. O mapa parecia indicar a localização de um tesouro perdido há muito tempo. Curiosa, Stella decide seguir as pistas.</p>
+        <button class="btn-proximo" data-proximo="1">Seguir o mapa e ir direto para a floresta</button>
+        <button class="btn-proximo" data-proximo="2">Ir à biblioteca local para pesquisar mais sobre o mapa</button>
+    </div>
+    <div class="passo" id="passo-1">
+        <p>Stella entra na floresta e, após caminhar por algumas horas, chega a uma encruzilhada. Ela pode:</p>
+        <button class="btn-proximo" data-proximo="3">Seguir pela trilha da esquerda, que parece mais segura, mas mais longa</button>
+        <button class="btn-proximo" data-proximo="4">Seguir pela trilha da direita, que é mais perigosa, mas mais curta</button>
+    </div>
+    <div class="passo" id="passo-2"> 
+      <p>Na biblioteca, Stella encontra um livro que menciona a história do tesouro perdido. Ela pode:</p>
+      <button class="btn-proximo" data-proximo="5">Ler o livro inteiro para aprender mais detalhes</button>
+      <button class="btn-proximo" data-proximo="6">Anotar apenas as informações mais importantes e seguir em fente</button>
+    </div>
+    <div class="passo" id="passo-3"> 
+      <p>Seguindo a trilha da esquerda Stella encontra uma árvore com um símbolo que corresponde ao mapa. Ela decide:</p>
+      <button class="btn-proximo" data-proximo="7">Escalar a árvore para ver melhor o caminho</button>
+      <button class="btn-proximo" data-proximo="8">Continuar andando e ignorar a árvore</button>
+    </div>
+    <div class="passo" id="passo-4"> 
+      <img src="cenario-passo4.png" alt="">
+      <p>Seguindo a trilha da direita Stella se depara com uma ponte quebrada sem possibilidades de ser atravessada.</p>
+      <button class="btn-proximo" data-proximo="9">Voltar e tentar a trilha da esquerda</button>
+    </div>
+    <div class="passo" id="passo-5"> 
+      <p>Se Stella ler o livro inteiro ela descobre que o tesouro esta protegido por um enigma. Ela deve:</p>
+      <button class="btn-proximo" data-proximo="10">Decifrar o enigma antes de partir</button>
+      <button class="btn-proximo" data-proximo="11">Ignorar o enigma e confiar no mapa</button>
+    </div>
+    <div class="passo" id="passo-6"> 
+      <p>Se Stella anotar somente as informações ela descobre que a chave do tesouro está escondida em uma caverna. Ela pode:</p>
+      <button class="btn-proximo" data-proximo="12">Ir diretamente para a caverna</button>
+      <button class="btn-proximo" data-proximo="13">Explorar a floresta primeiro para encontrar pistas adicionais</button>
+    </div>
+    <div class="passo" id="passo-7"> 
+      <p>Stella escalou a árvore para ver o caminho melhor e acabou caindo e se machucando. </p>
+      <button class="btn-proximo" data-proximo="14">Voltar para casa e limpar o machucado</button>
+    </div>
+    <div class="passo" id="passo-8"> 
+      <p>Stella continuou sem subir na árvore e acabou se perdendo.</p>
+      <button class="btn-proximo" data-proximo="15">Encontrar uma forma de voltar para casa</button>
+    </div>
+    <div class="passo" id="passo-10">
+      <img src="cenario-passo10.jpg" alt="">
+      <p>Stella decifrou o enigma antes de ir e quando chegou na floresta encontrou um baú cheio de coisas.</p>
+      <button class="btn-proximo" data-proximo="16">Voltar para casa com o baú</button>
+    </div>
+    <div class="passo" id="passo-11"> 
+      <p>Stella confiou no mapa e foi direto para a floresta e acabou nao encontrando nada.</p>
+      <button class="btn-proximo" data-proximo="17">Voltar para casa e ficar imaginando o que teria encontrado</button>
+    </div>
+    <div class="passo" id="passo-12"> 
+      <p>Indo direto para a caverna Stella acaba não encontrando nada.</p>
+      <button class="btn-proximo" data-proximo="18">Voltar para casa decepcionada por não ter encontrado nada</button>
+    </div>
+    <div class="passo" id="passo-13"> 
+      <p>Apesar de procurar mais pistas Stella acabou não encontrando mais nenhuma.</p>
+      <button class="btn-proximo" data-proximo="19">Voltar para casa decepcionada por não ter achado mais nenhuma pista</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
